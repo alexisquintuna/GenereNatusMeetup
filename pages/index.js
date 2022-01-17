@@ -7,6 +7,10 @@ import MeetupList from "../components/meetups/MeetupList";
 function HomePage(props) {
     return (
     <Fragment>
+      <Head>
+        <title>React Meetups</title>
+        <meta name='description' content='Browse a list of locations where the next meetups will be held at'/>
+      </Head>
       <MeetupList meetups={props.meetups} />
     </Fragment>
     );
