@@ -7,9 +7,9 @@ function MeetupDetail (props) {
             src={props.image}
             alt={props.title}
             />
-            <h1>{props.title}</h1>
-            <address>{props.address}</address>
-            <p>{props.description}</p>
+            <h1 className={classes.title}>{props.title}</h1>
+            <address className={classes.address}>{props.address}</address>
+            <p className={classes.description}>{props.description}</p>
         </section>
         );
     };

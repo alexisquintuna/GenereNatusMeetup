@@ -5,7 +5,14 @@ function MainNavigation() {
 
   return (
     <header className={classes.header}>
-      <div className={classes.logo}>React Meetups</div>
+      <div className={classes.logo}>
+        <img
+          alt="rx7"
+          className={classes.imglogo}
+          src="https://thumbs.dreamstime.com/b/cartoon-japan-tuned-car-red-sun-background-back-view-vector-illustration-cartoon-japan-tuned-car-red-sun-background-back-123158009.jpg"
+        />
+        <p className={classes.titlelogo}>Genere Natus</p>
+      </div>
       <nav>
         <ul>
           <li>

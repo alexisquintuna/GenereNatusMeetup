@@ -4,14 +4,30 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #77002e;
+  background: linear-gradient(135deg, black, rgb(49, 0, 0));
   padding: 0 10%;
 }
 
 .logo {
+  display: flex;
   font-size: 2rem;
   color: white;
   font-weight: bold;
+  position: relative;
+  top: 15px;
+}
+
+.imglogo {
+  height: 70px;
+  width: 70px;
+  display: block;
+  position: relative;
+  margin: 0 auto;
+}
+
+.titlelogo{
+  position: relative;
+  bottom: 15px;
 }
 
 .header ul {
@@ -29,11 +45,11 @@
 .header a {
   text-decoration: none;
   font-size: 1.5rem;
-  color: #fcb8d2;
+  color: #fcfcfc;
 }
 
 .header a:hover,
 .header a:active,
 .header a.active {
-  color: white;
+  color: #808083;
 }

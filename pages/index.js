@@ -1,5 +1,4 @@
 import Head from 'next/head';
-
 import { MongoClient } from 'mongodb';
 import { Fragment } from 'react';
 import MeetupList from "../components/meetups/MeetupList";
@@ -8,7 +7,7 @@ function HomePage(props) {
     return (
     <Fragment>
       <Head>
-        <title>React Meetups</title>
+        <title>Genere Natus</title>
         <meta name='description' content='Browse a list of locations where the next meetups will be held at'/>
       </Head>
       <MeetupList meetups={props.meetups} />
