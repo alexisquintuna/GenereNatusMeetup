@@ -2,7 +2,7 @@
 
 ## Description
 
-Web app for Genere Natus Meetups. This gives out a list of three locations on where the meets will be held at. Each location has been hand picked and follows all safety guidelines so we can enjoy it to its fullest potential.
+Web app for Genere Natus Meetups. This gives out a list of three locations on where the meets will be held at. Each location has been hand picked and follows all safety guidelines so we can enjoy it to its fullest potential. One can also add locations that they've found and want to go throughtout the night.
 Check out the [live site.](https://genere-natus-meetup.vercel.app/)
 
 ## Prerequisites
